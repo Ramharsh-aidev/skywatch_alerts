@@ -11,13 +11,7 @@ export default function Home() {
           <LiveRadar />
         </div>
       </FlightErrorBoundary>
-      
-      {<main className="container mx-auto py-8">
-      <h1 className="text-4xl font-bold mb-6">SkyWatch Alerts ✈️</h1>
-      <div className="bg-white rounded-xl shadow-lg p-4">
-        <LiveRadar />
-      </div>
-      
+
       <div className="mt-8 text-center">
         <p className="text-gray-600">
           Real-time flight tracking with proximity alerts
@@ -27,8 +21,6 @@ export default function Home() {
           <p>Set alerts when flights approach your location!</p>
         </div>
       </div>
-    </main>
-  }
     </main>
   );
 }
