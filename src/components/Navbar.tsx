@@ -14,6 +14,9 @@ export default function Navbar() {
         <Link href="/alerts" className={`hover:underline ${pathname === '/alerts' ? 'font-bold' : ''}`}>
           Alerts
         </Link>
+        <Link href="/alerts" className={`hover:underline ${pathname === '/Dashboard' ? 'font-bold' : ''}`}>
+          Dashboard
+        </Link>
         <Link href="/about" className={`hover:underline ${pathname === '/about' ? 'font-bold' : ''}`}>
           About
         </Link>
