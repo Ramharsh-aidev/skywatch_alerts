@@ -10,6 +10,9 @@ export default function Home() {
           <Link href="/alerts" className="text-blue-500 hover:underline">
             My Alerts
           </Link>
+            <Link href="/Dashboard" className="text-blue-500 hover:underline">
+         Dashboard
+          </Link>
           <Link href="/about" className="text-blue-500 hover:underline">
             About
           </Link>
