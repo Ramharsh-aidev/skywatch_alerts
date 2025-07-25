@@ -26,26 +26,6 @@
   }
 }
 
-/* 
-  NOTE: The following rules have been removed as they directly conflict with
-  the Tailwind classes on your `layout.tsx` body tag.
-  
-  body {
-    background: var(--background);
-    color: var(--foreground);
-  }
-  html, body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-  }
-*/
-
-
-/* --- 3. PRESERVED CUSTOM LOGIC (Animations & Leaflet Fixes) --- */
-/*
-  All of your custom logic and library fixes are PRESERVED here, untouched.
-  This will not be disturbed.
-*/
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
